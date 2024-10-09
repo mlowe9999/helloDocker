@@ -2,7 +2,7 @@ name: Kubernetes-deployment
 
 on:
   workflow_run:
-    workflows: [build and push docker image]
+    workflows: [build docker image]
     types:
       - completed
 jobs:
