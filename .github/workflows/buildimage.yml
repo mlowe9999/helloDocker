@@ -23,4 +23,4 @@ jobs:
             docker build . -f Dockerfile -t mlowe9999/demo-image-test:latest
         - name: push the docker image
           id: push-docker-image
-          run: docker push ${{secrets.DOCKERHUB_USERNAME}}/helloDocker:latest
+          run: docker push ${{secrets.DOCKERHUB_USERNAME}}/hellodocker:latest
