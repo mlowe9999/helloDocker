@@ -21,4 +21,4 @@ jobs:
       
       - name: Deploy the application
         run: |
-          kubectl apply -f https://raw.githubusercontent.com/siddhant-khisty/key-store-gin/main/deploymentsvc.yaml
+          kubectl apply -f https://raw.githubusercontent.com/mlowe9999/hellodocker/main/deploymentsvc.yaml
